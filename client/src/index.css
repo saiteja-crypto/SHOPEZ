@@ -828,6 +828,12 @@ select.form-input option { background: var(--bg-3); }
 .auth-switch a { color: var(--accent); font-weight: 600; }
 .auth-switch a:hover { color: var(--accent-2); }
 
+/* OTP Timer */
+.otp-timer {
+  font-size: 12px; color: var(--text-3);
+  margin-top: 6px; text-align: center;
+}
+
 /* ─────────────────────────────────────────
    CART
 ───────────────────────────────────────── */
