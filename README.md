@@ -10,7 +10,7 @@
 
 | Service | URL |
 |---------|-----|
-| 🌐 **Frontend** | https://shopez.vercel.app |
+| 🌐 **Frontend** | https://shopez-beta.vercel.app |
 | 🔧 **Backend API** | https://shopez-jxoe.onrender.com |
 
 ### 🔑 Demo Credentials
@@ -311,29 +311,6 @@ npm run build     # Creates optimized dist/ folder
 }
 ```
 
----
-
-## 🚀 Deployment
-
-### Frontend (Vercel)
-
-1. Connect GitHub repo `saiteja-crypto/SHOPEZ` to Vercel
-2. Set project root to `client`
-3. Add environment variable:
-   - `VITE_API_URL` = `https://shopez-jxoe.onrender.com/api`
-4. Deploy
-
-### Backend (Render)
-
-1. Create new Web Service on Render
-2. Connect GitHub repo `saiteja-crypto/SHOPEZ`
-3. Set root directory to `server`
-4. Use `render.yaml` for automatic config
-5. Add environment variables (see `.env.example`)
-6. Deploy
-
----
-
 ## 👨‍💻 Skills Demonstrated
 
 `HTML` `CSS` `JavaScript` `React.js` `Node.js` `Express.js` `MongoDB` `Mongoose` `JWT Authentication` `REST API` `Responsive Design` `Git` `GitHub` `Vercel` `Render` `MongoDB Atlas` `Environment Variables` `Error Handling` `State Management`
@@ -349,6 +326,8 @@ This project is open source and available under the MIT License.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to:
+my contributor ::  https://github.com/NakkaManiSagar/ShopEZ
+Thank you Brother
 
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/amazing-feature`)
@@ -363,7 +342,7 @@ Contributions, issues, and feature requests are welcome! Feel free to:
 For questions or support, reach out via:
 
 - **GitHub:** [saiteja-crypto](https://github.com/saiteja-crypto)
-- **Email:** agirishatisaiteja@gmail.com
+- **Email:** tech69251@gmail.com
 
 ---
 
