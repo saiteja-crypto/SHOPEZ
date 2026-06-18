@@ -1,4 +1,5 @@
 # 🛍️ ShopEZ – Full-Stack E-Commerce Platform
+USE OF AI 
 
 **Your one-stop destination for effortless online shopping.**
 
