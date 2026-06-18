@@ -23,6 +23,7 @@ const ProductDetail = () => {
   const [activeImg, setActiveImg] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const autoPlayRef = useRef(null);
+  const autoPlayTimeoutRef = useRef(null);
 
   // Review form
   const [review, setReview]         = useState({ rating: 5, comment: "" });
@@ -54,14 +55,17 @@ const ProductDetail = () => {
       nextImage(images);
     }, 3000);
 
-    return () => clearInterval(autoPlayRef.current);
+    return () => {
+      clearInterval(autoPlayRef.current);
+      clearTimeout(autoPlayTimeoutRef.current);
+    };
   }, [product, isAutoPlaying, nextImage]);
 
   const pauseAutoPlay = () => {
     setIsAutoPlaying(false);
     clearInterval(autoPlayRef.current);
-    // Resume after 6 seconds of inactivity
-    setTimeout(() => setIsAutoPlaying(true), 6000);
+    clearTimeout(autoPlayTimeoutRef.current);
+    autoPlayTimeoutRef.current = setTimeout(() => setIsAutoPlaying(true), 6000);
   };
 
   const getImages = (p) => {
