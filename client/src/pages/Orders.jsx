@@ -85,7 +85,7 @@ const Orders = () => {
                     {order.items.map((item, i) => (
                       <div key={i} className="order-item">
                         <img
-                          src={item.thumbnail || `https://placehold.co/56x56/1a1a2e/e94560?text=P`}
+                          src={item.thumbnail || `https://placehold.co/56x56/ffffff/2563eb?text=P`}
                           alt={item.name}
                         />
                         <div className="order-item-info">

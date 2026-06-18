@@ -43,7 +43,7 @@ const About = () => (
       <h2 className="section-title">Built with <span>❤️</span></h2>
       <p style={{color:"var(--text-2)",fontSize:15,maxWidth:600,margin:"0 auto",textAlign:"center",lineHeight:1.8}}>
         ShopEZ is built using the MERN stack — MongoDB, Express.js, React, and Node.js.
-        Designed and developed by <strong style={{color:"var(--text)"}}>Nakka Mani Sagar</strong> as a full-stack project
+        Designed and developed by <strong style={{color:"var(--text)"}}>SAI TEJA</strong> as a full-stack project
         demonstrating real-world e-commerce capabilities.
       </p>
     </div>

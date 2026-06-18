@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="navbar-inner">
         {/* Logo */}
         <Link to="/" className="navbar-logo">
-          Shop<span>EZ</span>
+          <span>SHOPEZ</span>
         </Link>
 
         {/* Search bar — desktop */}

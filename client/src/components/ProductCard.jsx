@@ -43,7 +43,7 @@ const ProductCard = ({ product }) => {
     <Link to={`/products/${product._id}`} className="product-card">
       <div className="product-img-wrap">
         <img
-          src={product.thumbnail || `https://placehold.co/300x300/1a1a2e/e94560?text=${encodeURIComponent(product.name)}`}
+          src={product.thumbnail || `https://placehold.co/300x300/eff6ff/2563eb?text=${encodeURIComponent(product.name)}`}
           alt={product.name}
         />
         {discount > 0 && <span className="discount-badge">{discount}% OFF</span>}

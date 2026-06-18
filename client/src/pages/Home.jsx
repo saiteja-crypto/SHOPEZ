@@ -7,7 +7,7 @@ import Loader from "../components/Loader";
 
 const CATEGORIES = [
   { name: "Electronics",   emoji: "💻", color: "#4f8ef7" },
-  { name: "Clothing",      emoji: "👕", color: "#e94560" },
+  { name: "Clothing",      emoji: "👕", color: "#2563eb" },
   { name: "Footwear",      emoji: "👟", color: "#f0c040" },
   { name: "Home & Living", emoji: "🏠", color: "#4caf7d" },
   { name: "Books",         emoji: "📚", color: "#b47cf7" },

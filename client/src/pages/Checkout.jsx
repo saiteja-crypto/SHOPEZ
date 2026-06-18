@@ -103,7 +103,7 @@ const Checkout = () => {
           email:   user.email,
           contact: user.phone || "",
         },
-        theme: { color: "#e94560" },
+        theme: { color: "#2563eb" },
         handler: async (response) => {
           try {
             // Step 4: Verify payment
@@ -268,7 +268,7 @@ const Checkout = () => {
                 item.product && (
                   <div key={item.product._id} className="checkout-item">
                     <img
-                      src={item.product.thumbnail || `https://placehold.co/50x50/1a1a2e/e94560?text=P`}
+                      src={item.product.thumbnail || `https://placehold.co/50x50/ffffff/2563eb?text=P`}
                       alt={item.product.name}
                     />
                     <div className="checkout-item-info">

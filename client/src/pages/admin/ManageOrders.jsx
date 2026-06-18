@@ -102,7 +102,7 @@ const ManageOrders = () => {
                     <div className="order-items-list">
                       {order.items.map((item, i) => (
                         <div key={i} className="order-item">
-                          <img src={item.thumbnail || `https://placehold.co/56x56/1a1a2e/e94560?text=P`} alt={item.name} />
+                          <img src={item.thumbnail || `https://placehold.co/56x56/ffffff/2563eb?text=P`} alt={item.name} />
                           <div className="order-item-info">
                             <p>{item.name}</p>
                             <span>Qty: {item.quantity} × ₹{item.price}</span>

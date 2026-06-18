@@ -67,7 +67,7 @@ const ProductDetail = () => {
   const getImages = (p) => {
     if (p.images?.length > 0) return p.images;
     if (p.thumbnail) return [p.thumbnail];
-    return [`https://placehold.co/600x600/1a1a2e/e94560?text=${encodeURIComponent(p.name)}`];
+    return [`https://placehold.co/600x600/ffffff/2563eb?text=${encodeURIComponent(p.name)}`];
   };
 
   if (loading) return <Loader />;

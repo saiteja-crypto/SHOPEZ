@@ -62,7 +62,7 @@ const Cart = () => {
               <div key={product._id} className="cart-item">
                 <div className="cart-item-info">
                   <img
-                    src={product.thumbnail || `https://placehold.co/80x80/1a1a2e/e94560?text=${encodeURIComponent(product.name)}`}
+                    src={product.thumbnail || `https://placehold.co/80x80/ffffff/2563eb?text=${encodeURIComponent(product.name)}`}
                     alt={product.name}
                   />
                   <div>

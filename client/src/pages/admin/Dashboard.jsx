@@ -64,7 +64,7 @@ const Dashboard = () => {
           <>
             <div className="stats-grid">
               <StatCard icon={<Users size={22}/>}        label="Total Users"    value={stats.totalUsers}    color="#4f8ef7" />
-              <StatCard icon={<Package size={22}/>}      label="Total Products" value={stats.totalProducts} color="#e94560" />
+              <StatCard icon={<Package size={22}/>}      label="Total Products" value={stats.totalProducts} color="#2563eb" />
               <StatCard icon={<ShoppingCart size={22}/>} label="Total Orders"   value={stats.totalOrders}   color="#f0c040" />
               <StatCard icon={<DollarSign size={22}/>}   label="Revenue (Paid)" value={`₹${stats.revenue?.toLocaleString()}`} color="#4caf7d" />
             </div>

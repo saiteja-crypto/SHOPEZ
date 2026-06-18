@@ -207,7 +207,7 @@ const ManageProducts = () => {
                   <tr key={p._id}>
                     <td>
                       <div className="table-product-cell">
-                        <img src={p.thumbnail || `https://placehold.co/40x40/1a1a2e/e94560?text=P`} alt="" />
+                        <img src={p.thumbnail || `https://placehold.co/40x40/ffffff/2563eb?text=P`} alt="" />
                         <div>
                           <p className="table-product-name">{p.name}</p>
                           <p className="table-product-brand">{p.brand}</p>

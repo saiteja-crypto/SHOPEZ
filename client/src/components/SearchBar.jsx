@@ -101,7 +101,7 @@ const SearchBar = ({ mobile = false, onClose }) => {
                   onClick={() => handleSuggestionClick(p)}
                 >
                   <img
-                    src={p.thumbnail || `https://placehold.co/36x36/1a1a2e/e94560?text=P`}
+                    src={p.thumbnail || `https://placehold.co/36x36/eff6ff/2563eb?text=P`}
                     alt=""
                   />
                   <div className="suggestion-info">

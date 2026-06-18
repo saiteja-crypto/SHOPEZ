@@ -46,7 +46,7 @@ const Wishlist = () => {
               <div key={product._id} className="wishlist-card">
                 <Link to={`/products/${product._id}`} className="wishlist-img">
                   <img
-                    src={product.thumbnail || `https://placehold.co/300x300/1a1a2e/e94560?text=${encodeURIComponent(product.name)}`}
+                    src={product.thumbnail || `https://placehold.co/300x300/ffffff/2563eb?text=${encodeURIComponent(product.name)}`}
                     alt={product.name}
                   />
                   {product.discountPrice && (

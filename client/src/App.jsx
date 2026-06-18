@@ -81,14 +81,15 @@ function App() {
             position="top-right"
             toastOptions={{
               style: {
-                background: "#1e1e2e",
-                color: "#cdd6f4",
-                border: "1px solid #313244",
-                borderRadius: "10px",
+                background: "#ffffff",
+                color: "#0f172a",
+                border: "1px solid #e2e8f0",
+                borderRadius: "14px",
                 fontSize: "14px",
+                boxShadow: "0 16px 40px rgba(15, 23, 42, 0.08)",
               },
-              success: { iconTheme: { primary: "#a6e3a1", secondary: "#1e1e2e" } },
-              error:   { iconTheme: { primary: "#f38ba8", secondary: "#1e1e2e" } },
+              success: { iconTheme: { primary: "#16a34a", secondary: "#ffffff" } },
+              error:   { iconTheme: { primary: "#ef4444", secondary: "#ffffff" } },
             }}
           />
           <div className="app-layout">
